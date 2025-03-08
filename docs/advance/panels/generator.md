@@ -157,3 +157,17 @@ generator:
 
 生成器面板允许使用 `layout` 和 `icons` 节点来设置默认静态图标  
 未被默认图标占用的槽位即是生成池，对象源会在其上顺序排列  
+
+## 示例
+
+### tpa选人菜单
+
+![](https://img.fastmirror.net/s/2024/08/21/66c50f9137702.png)
+
+- https://www.minebbs.com/resources/.9240
+
+### 签到菜单
+
+![](https://img.fastmirror.net/s/2024/08/20/66c4779828bc6.png)
+
+- https://www.minebbs.com/resources/.9237

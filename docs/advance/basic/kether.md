@@ -82,6 +82,16 @@ resume_relocate
 resume_frames
 ```
 
+refresh = update（更新变量） + relocate（重定向子图标）
+
+特别地，你可以使用 icons 来操作所有图标，例如：
+
+```
+icons update
+```
+
+可以用来更新菜单中所有图标
+
 ## 翻页
 - 名称: `page`
 - 语境需有可翻页的面板
@@ -167,4 +177,12 @@ node <key> with <invokeArgs>
 item <action>
 item <action> by <source>
 item <action> by <source> amount <amount>
+```
+
+## 跨服
+
+- 名称：`connect`
+
+```
+connect <action>
 ```

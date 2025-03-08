@@ -8,13 +8,13 @@ sidebar_position: 3
 
 ## 属性
 
-| **节点**           | 接受值           |     | 描述          |
-|------------------|---------------|:----|-------------|
-| **locate**       | String / Int  |     | 面板的定位（槽位写法） |
-| **layout**       | String / List |     | 面板的布局       |
-| **scale**        | ListInt       |     | 尺寸          |
-| **default-page** | Int           |     | 默认页码        |
-| **pages**        | ListPanel     |     | 多页面板        |
+| **节点**           | 接受值       | 描述                 |
+|------------------|---------------|----------------------|
+| **locate**       | String / Int  | 面板的定位（槽位写法） |
+| **layout**       | String / List | 面板的布局            |
+| **scale**        | ListInt       | 尺寸                 |
+| **default-page** | Int           | 默认页码              |
+| **pages**        | ListPanel     | 多页面板              |
 
 ## 示例
 
