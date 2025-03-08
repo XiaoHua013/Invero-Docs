@@ -59,12 +59,13 @@ head: '<头颅标识符>'
 
 > 对第三方插件的支持  
 
-| **节点**           | 别称     | 描述                   |
-|------------------|--------|----------------------|
+| **节点**           | 别称     | 描述                 |
+|------------------|--------|-------------------------|
 | **zaphkiel**     | zap    | Zaphkiel 插件支持        |
 | **oraxen**       | -      | Oraxen 插件支持          |
 | **itemsadder**   | ia     | ItemsAdder 插件支持      |
 | **headdatabase** | hdb    | HeadDatabase 插件支持    |
+| **NeigeItems**   | ni     | NeigeItems 插件支持      |
 
 > 序列化物品的支持
 
