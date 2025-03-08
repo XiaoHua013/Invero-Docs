@@ -15,10 +15,10 @@ Usage: /invero
         │   ├── printSession
         │   └── printWindow
         ├── menu
-        │    ├── reload
-        │    ├── list [<filter>]
-        │    ├── dump <menu>
-        │    └── open <menu> [<player>] [<arguments>]
+        │   ├── reload
+        │   ├── list [<filter>]
+        │   ├── dump <menu>
+        │   └── open <menu> [<player>] [<arguments>]
         └── item encode [<slot>]
 ```
 
