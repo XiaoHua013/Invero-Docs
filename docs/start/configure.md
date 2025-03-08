@@ -23,6 +23,10 @@ Invero
 
 ### 配置文件
 ```yaml title=config.yml
+Kether:
+  # 自动翻译变量
+  auto-placeholder-translate: true
+
 # 工作空间
 Workspaces:
   # 匹配文件名加载（正则表达式）
