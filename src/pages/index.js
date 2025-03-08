@@ -12,7 +12,6 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <script defer src="/_vercel/insights/script.js"></script>
         <div className="container">
             <h1 className="hero__title">{siteConfig.title}</h1>
             <p className="hero__subtitle">

@@ -32,4 +32,4 @@ Usage: /invero
 - `player`：玩家名
 - `argument`: 预置菜单语境参数
     - `key1=value1;key2=value2` 形式
-    - `{"customArg": "1"}' JsonObject 形式
+    - `{"customArg": "1"}` JsonObject 形式
