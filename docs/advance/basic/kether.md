@@ -168,3 +168,11 @@ item <action>
 item <action> by <source>
 item <action> by <source> amount <amount>
 ```
+
+## 跨服
+
+- 名称：`connect`
+
+```
+connect <action>
+```
