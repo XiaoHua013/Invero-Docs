@@ -13,7 +13,6 @@ Invero 在容器 GUI 属性和相关物品的显示属性，以及脚本中的�
 
 - 脚本内联函数
 - `{{identifier}}`
--
 
 ### Placeholder API
 
@@ -24,3 +23,7 @@ Invero 在容器 GUI 属性和相关物品的显示属性，以及脚本中的�
 
 - 当且仅当你的 **服务端** 包含新版的 MiniMessage 时此功能才有效 （Paper 1.16.5+）
 - 查阅文档 [MiniMessage Format](https://docs.adventure.kyori.net/minimessage/format.html#standard-tags)
+
+### 行内复合文本
+
+- https://plugins.ptms.ink/function/components/basic
