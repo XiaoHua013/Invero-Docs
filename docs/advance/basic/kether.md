@@ -18,6 +18,38 @@ msg "<red>Hello {{player name}}"
 
 该语句省去 `tell inline color` 等连锁写法，但相比而言默认需要更多运算
 
+## Vault
+
+- 名称：`money`
+- 描述：控制 Vault 经济
+- 用法
+
+```
+money has <action>
+money give <action>
+money take <action>
+```
+
+## PlayerPoints
+
+- 名称：`points`
+- 描述：控制 PlayerPoints 经济
+- 用法
+
+```
+points has <action>
+points give <action>
+points take <action>
+```
+
+## 跨服
+
+- 名称：`connect`
+
+```
+connect <action>
+```
+
 ## 语境
 
 - 名称：`context`, `ctx`
@@ -177,12 +209,4 @@ node <key> with <invokeArgs>
 item <action>
 item <action> by <source>
 item <action> by <source> amount <amount>
-```
-
-## 跨服
-
-- 名称：`connect`
-
-```
-connect <action>
 ```
