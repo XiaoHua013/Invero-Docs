@@ -20,30 +20,30 @@ sidebar_position: 5
 
 每个物品帧包含的节点与图标的显示部分相同，如下
 
-| **节点**          | 别称                   | 接受值                 | 描述                   |
-|-----------------|----------------------|---------------------|----------------------|
-| **last**        | delay                | Long                | 物品帧持续的时间             |
-| material        | texture, mat         | String / Object     | 图标材质（原版或特殊源）         |
-| head            | skull                | String              | 自定义头颅材质              |
-| zaphkiel        | zap                  | String              | Zaphkiel 插件支持        |
-| oraxen          | -                    | String              | Oraxen 插件支持          |
-| itemsadder      | ia                   | String              | ItemsAdder 插件支持      |
-| headdatabase    | hdb                  | String              | HeadDatabase 插件支持    |
-| serialized      | base64               | String              | Serialized base64 物品 |
-| kether          | -                    | String              | Kether 脚本物品          |
-| name            | -                    | String              | 物品显示名称               |
-| lore            | lores                | String / List       | 物品显示描述               |
-| amount          | count, amt           | Int                 | 物品数量                 |
-| damage          | durability, dur      | Int                 | 物品耐久                 |
-| customModelData | model                | Int                 | 物品模型 ID （1.14+）      |
-| color           | -                    | String              | 物品颜色                 |
-| glow            | shiny                | Bool                | 物品是否发光               |
-| enchantments    | enchantment, enchant | Map                 | 物品附魔属性               |
-| flags           | flag                 | List                | 物品标签                 |
-| unbreakable     | -                    | Bool                | 物品是否不可破坏             |
-| nbt             | -                    | Map                 | 物品 NBT 属性            |
-| enhancedLore    | -                    | Bool                | 是否启用增强 Lore 解析       |
-| slot            | slots                | (List) Int / String | 指定显示槽位               |
+| **节点**            | 别称                   | 接受值                 | 描述                   |
+|---------------------|----------------------|---------------------|-----------------------------|
+| **last**            | delay                | Long                | 物品帧持续的时间            |
+| **material**        | texture, mat         | String / Object     | 图标材质（原版或特殊源）    |
+| **head**            | skull                | String              | 自定义头颅材质              |
+| **zaphkiel**        | zap                  | String              | Zaphkiel 插件支持           |
+| **oraxen**          | -                    | String              | Oraxen 插件支持             |
+| **itemsadder**      | ia                   | String              | ItemsAdder 插件支持         |
+| **headdatabase**    | hdb                  | String              | HeadDatabase 插件支持       |
+| **serialized**      | base64               | String              | Serialized base64 物品      |
+| **kether**          | -                    | String              | Kether 脚本物品             |
+| **name**            | -                    | String              | 物品显示名称                |
+| **lore**            | lores                | String / List       | 物品显示描述                |
+| **amount**          | count, amt           | Int                 | 物品数量                    |
+| **damage**          | durability, dur      | Int                 | 物品耐久                    |
+| **customModelData** | model                | Int                 | 物品模型 ID （1.14+）       |
+| **color**           | -                    | String              | 物品颜色                    |
+| **glow**            | shiny                | Bool                | 物品是否发光                |
+| **enchantments**    | enchantment, enchant | Map                 | 物品附魔属性                |
+| **flags**           | flag                 | List                | 物品标签                    |
+| **unbreakable**     | -                    | Bool                | 物品是否不可破坏            |
+| **nbt**             | -                    | Map                 | 物品 NBT 属性               |
+| **enhancedLore**    | -                    | Bool                | 是否启用增强 Lore 解析      |
+| **slot**            | slots                | (List) Int / String | 指定显示槽位                |
 
 新增的节点 `last` 规定该物品帧持续的时间
 
@@ -71,12 +71,12 @@ frames-prop:
 
 ## 播放模式
 
-| **模式**         | 描述       |
-|----------------|----------|
+| **模式**         | 描述           |
+|----------------|------------------|
 | **LOOP**       | 顺序循环（默认） |
-| **ONE_WAY**    | 单次循环     |
-| **REVERSABLE** | 顺逆双循环    |
-| **RANDOM**     | 随机抽帧     |
+| **ONE_WAY**    | 单次循环         |
+| **REVERSABLE** | 顺逆双循环       |
+| **RANDOM**     | 随机抽帧         |
 
 :::tip 你知道吗？
 动态标题的播放模式也同这个是一样的配置属性
