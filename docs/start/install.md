@@ -20,7 +20,7 @@ sidebar_position: 2
 | Mohist    | ⭕   |
 
 :::tip 版本
-我们兼容 1.8 - 1.20 的 Minecraft 版本  
+我们兼容 1.8 - 1.21 的 Minecraft 版本  
 :::
 
 :::caution 注意
