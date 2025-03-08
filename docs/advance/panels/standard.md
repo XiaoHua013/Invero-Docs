@@ -17,4 +17,20 @@ sidebar_position: 2
 
 ## 示例
 
-这还要示例？
+```
+title: Input Catcher
+
+layout:
+  - '#########'
+  - '#A      #'
+  - '#########'
+
+# layout: |-
+#   #########
+#   #A      #
+#   #########
+
+items:
+  'A':
+    material: stone
+```
