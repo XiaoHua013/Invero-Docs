@@ -16,14 +16,9 @@ const config = {
     onBrokenMarkdownLinks: 'ignore',
     favicon: 'img/invero_logo.png',
 
-    // GitHub pages deployment config.
-    // If you aren't using GitHub pages, you don't need these.
-    organizationName: '8aka-Team', // Usually your GitHub org/user name.
-    projectName: 'Invero-Docs', // Usually your repo name.
+    organizationName: '8aka-Team',
+    projectName: 'Invero-Docs',
 
-    // Even if you don't use internalization, you can use this field to set useful
-    // metadata like html lang. For example, if your site is Chinese, you may want
-    // to replace "en" with "zh-Hans".
     i18n: {
         defaultLocale: 'zh-CN',
         locales: ['zh-CN'],
@@ -68,20 +63,44 @@ const config = {
                         position: 'right',
                         className: 'header-github-link',
                     },
-//            {
-//              type: 'localeDropdown', position: 'right',
-//            },
                 ],
             },
             colorMode: {
                 defaultMode: 'light',
-                disableSwitch: true,
+                disableSwitch: false,
                 respectPrefersColorScheme: true,
             },
             footer: {
                 style: 'light',
-                links: [],
-                copyright: `Copyright © ${new Date().getFullYear()} <b>TRIXEY</b>, All Rights Reserved.`,
+                links: [
+                    {
+                        title: '文档',
+                        items: [
+                            {
+                                label: '驿站主页',
+                                to: 'https://8aka.org',
+                            },
+                            {
+                                label: 'NitWikit',
+                                to: 'https://nitwikit.8aka.org',
+                            },
+                            {
+                                label: 'GitHub',
+                                href: 'https://github.com/8aka-Team/Invero-Docs',
+                            },
+                        ],
+                    },
+                    {
+                        title: '交流',
+                        items: [
+                            {
+                                label: 'QQ 群',
+                                href: 'https://qm.qq.com/q/dENGavSflK',
+                            },
+                        ],
+                    },
+                ],
+                copyright: `Copyright © ${new Date().getFullYear()} <b>8aka-Team</b>, All Rights Reserved.`,
             },
             prism: {
                 theme: lightCodeTheme,
