@@ -7,18 +7,18 @@ sidebar_position: 3
 
 ```
 Invero
-│  config.yml ················ 插件配置文件
-│  datasource.yml ············ 数据库属性设置
-│  kether.yml ················ Kether 配置文件
-│  
-├─data ······················· 插件本地数据
-│      invero_data.db
-│      
-├─lang ······················· 语言文件
-│      zh_CN.yml
-│      
-└─workspace ·················· 默认工作空间
-    │  example.yml
+├ config.yml          # 插件配置文件
+├ datasource.yml      # 数据库属性设置
+├ kether.yml          # Kether 配置文件
+│
+├ data                # 插件本地数据
+│ ├ invero_data.db
+│
+├ lang                # 语言文件
+│  ├ zh_CN.yml
+│
+└ workspace           # 默认工作空间
+    ├ example.yml
 ```
 
 ### 配置文件
