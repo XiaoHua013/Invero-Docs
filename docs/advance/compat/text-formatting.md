@@ -17,7 +17,8 @@ Invero 在容器 GUI 属性和相关物品的显示属性，以及脚本中的�
 
 ### Placeholder API
 
-- `%identifier%`
+- `%invero_data_global_<key>%`
+- `%invero_data_player_<key>%`
 
 ### MiniMessage
 
