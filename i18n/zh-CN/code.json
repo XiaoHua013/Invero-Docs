@@ -1,0 +1,38 @@
+{
+  "site.title": {
+    "message": "主页"
+  },
+  "Quick Start \uD83E\uDD75": {
+    "message": "快速开始 \uD83E\uDD75"
+  },
+  "features.1.tag": {
+    "message": "FRIENDLY"
+  },
+  "features.1.title": {
+    "message": "友好"
+  },
+  "features.1.description": {
+    "message": "化繁为简，效率至上\n多态正反序列化支持，入门菜单配置十分简易\n也许是现存最简单的菜单插件"
+  },
+  "features.2.tag": {
+    "message": "POWERFUL"
+  },
+  "features.2.title": {
+    "message": "强的离谱"
+  },
+  "features.2.description": {
+    "message": "专注容器 4 年，从未停止进阶玩法的探索\nInvero 能将你绝大多数想象的功能都化作现实\n生成器、滚动条、交互槽 & 脚本系统 ..."
+  },
+  "features.3.tag": {
+    "message": "OPEN"
+  },
+  "features.3.title": {
+    "message": "开放"
+  },
+  "features.3.description": {
+    "message": "Invero 全部代码都在 Github 开源。\n虽然目前处于归档不更新状态，\n未来迭代后会重新开源"
+  },
+  "Versatile and flexible GUI creation plugin": {
+    "message": "灵活强大的多功能容器 GUI 解决方案"
+  }
+}
