@@ -17,6 +17,7 @@ myCustomMenuStructure
 │    ├─ rows ············· 箱子行数
 │    ├─ title ············ 容器标题
 │    ├─ virtual ·········· 是否启用虚拟容器
+│    ├─ hide-player-inventory 隐藏玩家背包
 │    └─ option ··········· 其他菜单选项
 ├─ panels ················ 菜单面板
 │    └─ standardPanel ···· 示例标准面板
