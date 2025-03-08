@@ -4,35 +4,35 @@ sidebar_position: 1
 
 # 容器类型
 
-| 类型                 |
-|--------------------|
-| CHEST              |
-| DISPENSER          |
-| DROPPER            |
-| FURNACE            |
-| WORKBENCH          |
-| CRAFTING           |
-| ENCHANTING         |
-| BREWING            |
-| PLAYER             |
-| CREATIVE           |
-| MERCHANT           |
-| ENDER_CHEST        |
-| ANVIL              |
-| SMITHING           |
-| BEACON             |
-| HOPPER             |
-| SHULKER_BOX        |
-| BARREL             |
-| BLAST_FURNACE      |
-| LECTERN            |
-| SMOKER             |
-| LOOM               |
-| CARTOGRAPHY        |
-| GRINDSTONE         |
-| STONECUTTER        |
-| COMPOSTER          |
-| CHISELED_BOOKSHELF |
+| 类型                   |
+|------------------------|
+| **CHEST**              |
+| **DISPENSER**          |
+| **DROPPER**            |
+| **FURNACE**            |
+| **WORKBENCH**          |
+| **CRAFTING**           |
+| **ENCHANTING**         |
+| **BREWING**            |
+| **PLAYER**             |
+| **CREATIVE**           |
+| **MERCHANT**           |
+| **ENDER_CHEST**        |
+| **ANVIL**              |
+| **SMITHING**           |
+| **BEACON**             |
+| **HOPPER**             |
+| **SHULKER_BOX**        |
+| **BARREL**             |
+| **BLAST_FURNACE**      |
+| **LECTERN**            |
+| **SMOKER**             |
+| **LOOM**               |
+| **CARTOGRAPHY**        |
+| **GRINDSTONE**         |
+| **STONECUTTER**        |
+| **COMPOSTER**          |
+| **CHISELED_BOOKSHELF** |
 
 
 ## 配置
