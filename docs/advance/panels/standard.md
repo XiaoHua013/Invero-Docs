@@ -17,7 +17,7 @@ sidebar_position: 2
 
 ## 示例
 
-```
+```yaml
 title: Input Catcher
 
 layout:
