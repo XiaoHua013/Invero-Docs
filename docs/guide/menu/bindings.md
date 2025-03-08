@@ -31,6 +31,11 @@ bindings:
   shift_f: 500
 ```
 
+```yaml title=右键实体打开菜单
+bindings:
+  entity: pig
+```
+
 :::info 注意
 通过绑定聊天的命令，并不会将命令注册到服务器  
 详细的菜单命令注册以及更复杂的物品特征结构会在进阶中解释
