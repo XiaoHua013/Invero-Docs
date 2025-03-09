@@ -23,6 +23,10 @@ const config = {
         defaultLocale: 'zh-CN',
         locales: ['zh-CN'],
     },
+    clientModules: [
+        require.resolve('./src/clientModules/routeModules.js'),
+        require.resolve('./src/clientModules/adsModules.js'),
+    ],
 
     presets: [
         [
@@ -45,6 +49,19 @@ const config = {
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
+            giscus: {
+                repo: '8aka-Team/Invero-Docs',
+                repoId: 'R_kgDOOFEX-w',
+                category: 'General',
+                categoryId: 'DIC_kwDOOFEX-84Cnupi'
+            },
+            zoom: {
+                selector: '.markdown :not(em) > img',
+                background: {
+                    light: 'rgb(255, 255, 255)',
+                    dark: 'rgb(50, 50, 50)',
+                },
+            },
             navbar: {
                 title: 'Invero',
                 logo: {
