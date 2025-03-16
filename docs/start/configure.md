@@ -52,4 +52,9 @@ Menu:
   default-name-color: "§7"
   # 默认物品描述颜色
   default-lore-color: "§7"
+
+Patch:
+  # 允许在 Vanilla Inventory 中使用 Raw Title
+  # 详见 https://github.com/TabooLib/taboolib/blob/dev/6.2.3/module/bukkit/bukkit-ui/src/main/kotlin/taboolib/module/ui/MenuBuilder.kt#L40
+  enable-raw-title-in-vanilla-inventory: false
 ```
