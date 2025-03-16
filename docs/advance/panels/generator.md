@@ -160,13 +160,25 @@ generator:
 
 ## 示例
 
+### 声音列表
+
+> 以下是由 YAML 单文件编写的一个自动生成多页，可过滤 & 排序的音效预览示例
+
+![](/static/post/example_sounds.gif)
+
+- 
+
 ### tpa选人菜单
+
+> 一个可以列出服务器所有在线玩家，可以请求传送的 tpa 案例
 
 ![](https://img.fastmirror.net/s/2024/08/21/66c50f9137702.png)
 
 - https://www.minebbs.com/resources/.9240
 
 ### 签到菜单
+
+> 仿 LiteSignin 插件的签到，有最基本的签到和补签功能
 
 ![](https://img.fastmirror.net/s/2024/08/20/66c4779828bc6.png)
 

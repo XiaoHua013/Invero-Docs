@@ -30,3 +30,17 @@ sidebar_position: 6
 | **节点**       | 接受值    | 描述                   |
 |--------------|--------|----------------------|
 | **listener** | String | 物品发生改变时执行的 Kether 脚本 |
+
+## 示例
+
+### apple->golden_apple
+
+![](/static/post/example_convert.gif)
+
+- https://github.com/8aka-Team/Invero/blob/main/src/main/resources/default/crafting_apple.yml
+
+### 垃圾桶
+
+![](/static/post/rubbish_bin.gif)
+
+- https://www.minebbs.com/resources/.10921
