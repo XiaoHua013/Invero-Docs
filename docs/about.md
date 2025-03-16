@@ -11,7 +11,7 @@ sidebar_position: 1
 
 :::info 警告
 
-Invero 目前已经转为社区维护,免费下载
+Invero 目前已经转为社区维护，免费下载
 
 :::
 
