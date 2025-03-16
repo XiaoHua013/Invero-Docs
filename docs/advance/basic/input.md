@@ -4,6 +4,8 @@ sidebar_position: 10
 
 # 输入捕获
 
+## 示例
+
 ```yaml
 title: Input Catcher
 
@@ -72,4 +74,29 @@ items:
       #
       onRepeat: |
         tell "?"
+```
+
+## 多捕获器
+
+同时使用两个及两个以上的捕获器
+
+```yaml
+items:
+  'yizhan':
+    head: '{{player name}}'
+    name: '&2&l{{player name}}'
+    action:
+      reopen: false
+      catchers:
+        - catch: name
+          beforeInput: |
+            tell "Please enter the player's name"
+          afterInput: |
+            tell "You entered {{&name}}"
+        - catch: amount
+          beforeInput: |
+            tell "Please enter the amount"
+          afterInput: |
+            tell "You entered {{&amount}}"
+            command "pay {{&name}} {{&amount}}"
 ```
