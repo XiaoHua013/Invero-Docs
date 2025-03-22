@@ -48,6 +48,7 @@ points take <action>
 
 ```
 connect <action>
+connect <serverName> for <playerName>
 ```
 
 ## 语境
