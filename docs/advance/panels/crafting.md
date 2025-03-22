@@ -35,12 +35,12 @@ sidebar_position: 6
 
 ### apple->golden_apple
 
-![](/static/post/example_convert.gif)
+![](/post/example_convert.gif)
 
 - https://github.com/8aka-Team/Invero/blob/main/src/main/resources/default/crafting_apple.yml
 
 ### 垃圾桶
 
-![](/static/post/rubbish_bin.gif)
+![](/post/rubbish_bin.gif)
 
 - https://www.minebbs.com/resources/.10921

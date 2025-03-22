@@ -164,9 +164,9 @@ generator:
 
 > 以下是由 YAML 单文件编写的一个自动生成多页，可过滤 & 排序的音效预览示例
 
-![](/static/post/example_sounds.gif)
+![](/post/example_sounds.gif)
 
-- 
+- https://github.com/8aka-Team/Invero/blob/main/src/main/resources/default/generator_sounds.yml
 
 ### tpa选人菜单
 
