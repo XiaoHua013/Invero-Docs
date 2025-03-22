@@ -20,11 +20,12 @@ msg "<red>Hello {{player name}}"
 
 ## Vault
 
-- 名称：`money`
+- 名称：`money`, `eco`
 - 描述：控制 Vault 经济
 - 用法
 
 ```
+money get
 money has <action>
 money give <action>
 money take <action>
@@ -32,11 +33,12 @@ money take <action>
 
 ## PlayerPoints
 
-- 名称：`points`
+- 名称：`playerpoints`, `points`
 - 描述：控制 PlayerPoints 经济
 - 用法
 
 ```
+points get
 points has <action>
 points give <action>
 points take <action>
